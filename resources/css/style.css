@@ -284,3 +284,12 @@ header {
     width: auto;
     margin-right: 20px;
 }
+
+
+/*---------------------------*/
+/*CITIES SECTION*/
+/*---------------------------*/
+.box img {
+    width: 100%;
+    height: auto;
+}
