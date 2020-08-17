@@ -119,6 +119,20 @@ h2:after {
 }
 
 
+/*----- LINKS -----*/
+a:link , a:visited {
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: border-bottom 0.2s , color 0.2s;
+}
+a:active , a:hover {
+    border-bottom: 2px solid #e67e22;
+    color: #e67e22;
+}
+
+
+
 /*----- BUTTONS -----*/
 .btn:link , .btn:visited {
     display: inline-block;
@@ -294,6 +308,11 @@ header {
     font-size: 150%;
     margin-right: 25px;
 }
+
+.btn-app:link , .btn-app:visited {
+    border-bottom: none;
+}
+
 .btn-app img {
     height: 50px;
     width: auto;
@@ -311,7 +330,4 @@ header {
 }
 .city-feature {
     margin-bottom: 5px;
-}
-.twitter-link:link , .twitter- {
-    
 }
