@@ -377,3 +377,60 @@ cite img {
     margin-right: 10px;
     vertical-align: middle;
 }
+
+
+
+/*---------------------------*/
+/*SIGN UP AND PRICING SECTION*/
+/*---------------------------*/
+
+.section-plans {
+    background-color: #e6e6e6;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #dbdada;
+}
+
+.plan-box div:first-child {
+    background-color: #f4f1f1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: none;
+}
+
+.plan-price {
+    margin-bottom: 15px;
+    color: #e67e22;
+    font-size: 90%;
+}
+
+.plan-price span{
+    font-size: 400%;
+    font-weight: 100;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
