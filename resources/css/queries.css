@@ -1,0 +1,187 @@
+
+
+/* from big tablet to 1200px*/
+@media only screen and (max-width:1200px) {
+    html , body {
+        overflow-x: hidden;
+        
+    }
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+    
+}
+
+
+
+/* for tablets in portrait modes : 768px to 1023 px*/
+@media only screen and (max-width:1023px) {
+    
+    html , body {
+        font-size: 18px;
+    }
+    section { padding: 60px 0;}
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+        word-spacing: 1px;
+    }
+    
+    .box p {
+        line-height: 140%;
+    }
+    
+    .icon-big {
+        font-size: 300%;
+    }
+    
+    h3 {
+        font-size: 102%;
+    
+    }
+    
+    .steps-box{margin-top: 10px;}
+    
+    .steps-box:last-child {
+        margin-top: 30px;
+    }
+    
+    .works-step {
+        margin-bottom: 40px;
+    }
+    
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+    
+    .app-screen {
+        width: 50%;
+    }
+    
+    .btn-app img {
+        height: 40px;
+        width: auto;
+        margin-right: 15px;
+    }
+    
+    .icon-small {
+        width: 15px;
+        margin-right: 0px;
+    }
+    
+    .city-feature { font-size: 90%;}
+    
+    .plan-price span{
+        font-size: 300%;
+    }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .plan-box ul li {
+        font-size: 90%;
+    }
+    
+    .contact-form { width: 80%;}
+    
+    
+}
+
+
+
+/* for tablets or Ipads : 481px to 767px*/
+@media only screen and (max-width:767px) {
+    body { font-size: 16px;}
+    
+    section { padding: 30px 0;}
+    
+    .row , .hero-text-box { padding: 0 4%;}
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .main-nav {display: none;}
+    
+    h1{ font-size: 180%;}
+    
+    h2 {
+        font-size: 150%;
+        word-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .logo {
+        height: 80px;
+    }
+    
+    .long-copy {
+        line-height: 125%;
+        width: 90%;
+        margin-left: 5%;
+        word-spacing: 1px;
+    }
+    
+    .box {
+        padding: 0;
+    }
+    
+    .steps-box:first-child {
+        text-align: center;
+        padding-right: 0;
+    }
+    .app-screen {
+        width: 30%;
+    }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        vertical-align: middle;
+        font-size: 120%;
+        margin-right: 15px;
+    }
+    
+    .btn-app img{
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+        width: 100px;
+        height: auto;
+    }
+    
+    .city-feature {
+        font-size: 110%;
+    }
+    
+    .icon-small {
+        width: 20px;
+        margin-right: 5px;
+    }
+    
+    .contact-btn {
+        text-align: center;
+    }
+    
+    .social-links , .footer-nav {
+        text-align: center;
+        float: none;
+    }
+}
+
+
+
+
+
+/* for small phones : 0 to 480px */
+@media only screen and (max-width : 480px) {
+    
+}
